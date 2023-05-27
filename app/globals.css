@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.shadows{
+  transition: all 0.7s ease-in-out;
+  box-shadow: 10px 10px 10px #b4bea6;
+}
+.shadows:hover {
+transform: scale(1.08);
+transition: all 0.7s ease-in-out;
+}
